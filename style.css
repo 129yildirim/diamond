@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0d1117;
+    font-family: 'Cinzel', serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+#diamond-text {
+    font-size: 6rem;
+    color: #e6edf3;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    text-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+    user-select: none;
+}
+
+#diamond-text.glow {
+    color: #58a6ff;
+    text-shadow: 0 0 20px #58a6ff, 0 0 40px #58a6ff, 0 0 80px #1f6feb;
+    transform: scale(1.05);
+}
