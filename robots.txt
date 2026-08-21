@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block AI Scrapers and Model Training Bots
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://diamondhaliyikama.com.tr/sitemap.xml
